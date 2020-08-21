@@ -1,0 +1,14 @@
+@media (max-width: 700px) {
+  .about-main-content {
+    grid-template-areas:
+      "title title title"
+      "image image image"
+      "bio bio bio"
+      "t-title t-title t-title"
+      "tech tech tech";
+  }
+
+  .work-items {
+    grid-template-columns: 1fr;
+  }
+}
